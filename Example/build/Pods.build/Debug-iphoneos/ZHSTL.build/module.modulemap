@@ -1,0 +1,6 @@
+framework module ZHSTL {
+  umbrella header "ZHSTL-umbrella.h"
+
+  export *
+  module * { export * }
+}

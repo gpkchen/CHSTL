@@ -7,9 +7,9 @@
 #
 
 Pod::Spec.new do |s|
-  s.name             = 'ZHSTL'
-  s.version          = '1.0.74'
-  s.summary          = 'Z.H.STL'
+  s.name             = 'CHSTL'
+  s.version          = '1.0.0'
+  s.summary          = 'C.H.STL'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -18,14 +18,14 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-  Zhejiang horizon New Technology Co., Ltd., IOS public module management platform
+  Zhejiang Xiao Magua Technology Co., Ltd., IOS public module management platform
                        DESC
 
-  s.homepage         = 'http://git.fintechzh.com/chenh/ZHSTL.git'
+  s.homepage         = 'https://github.com/yuanlove/CHSTL.git'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'chenh' => 'chenh@fintechzh.com' }
-  s.source           = { :git => 'http://git.fintechzh.com/chenh/ZHSTL.git', :tag => s.version.to_s }
+  s.author           = { 'chenh' => 'shqfch@163.com' }
+  s.source           = { :git => 'https://github.com/yuanlove/CHSTL.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
   s.ios.deployment_target = '8.0'
 

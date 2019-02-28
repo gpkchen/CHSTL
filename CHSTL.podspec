@@ -18,7 +18,7 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-  Zhejiang Xiao Magua Technology Co., Ltd., IOS public module management platform
+  CHejiang Xiao Magua Technology Co., Ltd., IOS public module management platform
                        DESC
 
   s.homepage         = 'https://github.com/yuanlove/CHSTL.git'
@@ -30,70 +30,70 @@ Pod::Spec.new do |s|
   s.ios.deployment_target = '8.0'
 
   s.subspec 'Category' do |category|
-      category.source_files = 'ZHSTL/Classes/Category/*.*'
+      category.source_files = 'CHSTL/Classes/Category/*.*'
       # category.public_header_files = 'Pod/Classes/NetworkEngine/**/*.h'
       category.dependency 'SDWebImage'
       category.dependency 'GTMBase64'
       category.dependency 'MJRefresh'
       category.dependency 'Masonry'
-      category.dependency 'ZHSTL/Macro'
+      category.dependency 'CHSTL/Macro'
   end
 
   s.subspec 'Macro' do |macro|
-      macro.source_files = 'ZHSTL/Classes/Macro/*.*'
+      macro.source_files = 'CHSTL/Classes/Macro/*.*'
       # category.public_header_files = 'Pod/Classes/NetworkEngine/**/*.h'
   end
 
   s.subspec 'UI' do |ui|
-      ui.source_files = 'ZHSTL/Classes/UI/*.*'
+      ui.source_files = 'CHSTL/Classes/UI/*.*'
       # category.public_header_files = 'Pod/Classes/NetworkEngine/**/*.h'
       ui.dependency 'FLAnimatedImage'
       ui.dependency 'Masonry'
-      ui.dependency 'ZHSTL/Category'
-      ui.dependency 'ZHSTL/Macro'
+      ui.dependency 'CHSTL/Category'
+      ui.dependency 'CHSTL/Macro'
       ui.dependency 'pop'
 
       ui.resource_bundles = {
-        'UI_RES' => ['ZHSTL/Assets/UI/*.*']
+        'UI_RES' => ['CHSTL/Assets/UI/*.*']
       }
   end
 
   # s.subspec 'Network' do |network|
-  #     network.source_files = 'ZHSTL/Classes/Network/*.*'
+  #     network.source_files = 'CHSTL/Classes/Network/*.*'
   #     network.dependency 'MJExtension'
   #     network.dependency 'AFNetworking'
   #     network.dependency 'AliyunOSSiOS', '~> 2.5.4'
-  #     network.dependency 'ZHSTL/Category'
-  #     network.dependency 'ZHSTL/Macro'
-  #     network.dependency 'ZHSTL/UI'
+  #     network.dependency 'CHSTL/Category'
+  #     network.dependency 'CHSTL/Macro'
+  #     network.dependency 'CHSTL/UI'
   #     # category.public_header_files = 'Pod/Classes/NetworkEngine/**/*.h'
   # end
 
   s.subspec 'Base' do |base|
-      base.source_files = 'ZHSTL/Classes/Base/*.*'
-      base.dependency 'ZHSTL/Category'
-      base.dependency 'ZHSTL/Macro'
-      base.dependency 'ZHSTL/UI'
+      base.source_files = 'CHSTL/Classes/Base/*.*'
+      base.dependency 'CHSTL/Category'
+      base.dependency 'CHSTL/Macro'
+      base.dependency 'CHSTL/UI'
 
       base.resource_bundles = {
-        'BASE_RES' => ['ZHSTL/Assets/Base/*.*']
+        'BASE_RES' => ['CHSTL/Assets/Base/*.*']
       }
       # category.public_header_files = 'Pod/Classes/NetworkEngine/**/*.h'
   end
 
   s.subspec 'Utils' do |utils|
-      utils.source_files = 'ZHSTL/Classes/Utils/*.*'
-      utils.dependency 'ZHSTL/Category'
-      utils.dependency 'ZHSTL/Macro'
+      utils.source_files = 'CHSTL/Classes/Utils/*.*'
+      utils.dependency 'CHSTL/Category'
+      utils.dependency 'CHSTL/Macro'
       # category.public_header_files = 'Pod/Classes/NetworkEngine/**/*.h'
   end
 
   s.subspec 'Router' do |router|
-      router.source_files = 'ZHSTL/Classes/Router/*.*'
-      router.dependency 'ZHSTL/Category'
-      router.dependency 'ZHSTL/Macro'
-      router.dependency 'ZHSTL/UI'
-      router.dependency 'ZHSTL/Base'
+      router.source_files = 'CHSTL/Classes/Router/*.*'
+      router.dependency 'CHSTL/Category'
+      router.dependency 'CHSTL/Macro'
+      router.dependency 'CHSTL/UI'
+      router.dependency 'CHSTL/Base'
       # category.public_header_files = 'Pod/Classes/NetworkEngine/**/*.h'
   end
 

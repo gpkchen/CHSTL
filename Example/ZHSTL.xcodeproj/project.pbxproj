@@ -37,7 +37,7 @@
 
 /* Begin PBXFileReference section */
 		32CD45EB21F5385DBF4F4014 /* libPods-ZHSTL_Example.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ZHSTL_Example.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		436919E9E119196E58AC5955 /* ZHSTL.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = ZHSTL.podspec; path = ../ZHSTL.podspec; sourceTree = "<group>"; };
+		436919E9E119196E58AC5955 /* CHSTL.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = CHSTL.podspec; path = ../CHSTL.podspec; sourceTree = "<group>"; };
 		5E1D7A4FB722AB30FCD0D649 /* Pods-ZHSTL_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZHSTL_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ZHSTL_Example/Pods-ZHSTL_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* ZHSTL_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZHSTL_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -174,7 +174,7 @@
 		60FF7A9C1954A5C5007DD14C /* Podspec Metadata */ = {
 			isa = PBXGroup;
 			children = (
-				436919E9E119196E58AC5955 /* ZHSTL.podspec */,
+				436919E9E119196E58AC5955 /* CHSTL.podspec */,
 				CE663B2BCEA70322F06E09E0 /* README.md */,
 				E22DE83F00B33FD3690A9425 /* LICENSE */,
 			);

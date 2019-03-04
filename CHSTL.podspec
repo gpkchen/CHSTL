@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'CHSTL'
-  s.version          = '1.0.3'
+  s.version          = '1.0.4'
   s.summary          = 'C.H.STL'
 
 # This description is used to generate tags and improve search results.
@@ -30,70 +30,70 @@ Pod::Spec.new do |s|
   s.ios.deployment_target = '8.0'
 
   s.subspec 'Category' do |category|
-      category.source_files = 'CHSTL/Classes/Category/*.*'
+      category.source_files = 'Tools/Classes/Category/*.*'
       # category.public_header_files = 'Pod/Classes/NetworkEngine/**/*.h'
       category.dependency 'SDWebImage'
       category.dependency 'GTMBase64'
       category.dependency 'MJRefresh'
       category.dependency 'Masonry'
-      category.dependency 'CHSTL/Macro'
+      category.dependency 'Tools/Macro'
   end
 
   s.subspec 'Macro' do |macro|
-      macro.source_files = 'CHSTL/Classes/Macro/*.*'
+      macro.source_files = 'Tools/Classes/Macro/*.*'
       # category.public_header_files = 'Pod/Classes/NetworkEngine/**/*.h'
   end
 
   s.subspec 'UI' do |ui|
-      ui.source_files = 'CHSTL/Classes/UI/*.*'
+      ui.source_files = 'Tools/Classes/UI/*.*'
       # category.public_header_files = 'Pod/Classes/NetworkEngine/**/*.h'
       ui.dependency 'FLAnimatedImage'
       ui.dependency 'Masonry'
-      ui.dependency 'CHSTL/Category'
-      ui.dependency 'CHSTL/Macro'
+      ui.dependency 'Tools/Category'
+      ui.dependency 'Tools/Macro'
       ui.dependency 'pop'
 
       ui.resource_bundles = {
-        'UI_RES' => ['CHSTL/Assets/UI/*.*']
+        'UI_RES' => ['Tools/Assets/UI/*.*']
       }
   end
 
   # s.subspec 'Network' do |network|
-  #     network.source_files = 'CHSTL/Classes/Network/*.*'
+  #     network.source_files = 'Tools/Classes/Network/*.*'
   #     network.dependency 'MJExtension'
   #     network.dependency 'AFNetworking'
   #     network.dependency 'AliyunOSSiOS', '~> 2.5.4'
-  #     network.dependency 'CHSTL/Category'
-  #     network.dependency 'CHSTL/Macro'
-  #     network.dependency 'CHSTL/UI'
+  #     network.dependency 'Tools/Category'
+  #     network.dependency 'Tools/Macro'
+  #     network.dependency 'Tools/UI'
   #     # category.public_header_files = 'Pod/Classes/NetworkEngine/**/*.h'
   # end
 
   s.subspec 'Base' do |base|
-      base.source_files = 'CHSTL/Classes/Base/*.*'
-      base.dependency 'CHSTL/Category'
-      base.dependency 'CHSTL/Macro'
-      base.dependency 'CHSTL/UI'
+      base.source_files = 'Tools/Classes/Base/*.*'
+      base.dependency 'Tools/Category'
+      base.dependency 'Tools/Macro'
+      base.dependency 'Tools/UI'
 
       base.resource_bundles = {
-        'BASE_RES' => ['CHSTL/Assets/Base/*.*']
+        'BASE_RES' => ['Tools/Assets/Base/*.*']
       }
       # category.public_header_files = 'Pod/Classes/NetworkEngine/**/*.h'
   end
 
   s.subspec 'Utils' do |utils|
-      utils.source_files = 'CHSTL/Classes/Utils/*.*'
-      utils.dependency 'CHSTL/Category'
-      utils.dependency 'CHSTL/Macro'
+      utils.source_files = 'Tools/Classes/Utils/*.*'
+      utils.dependency 'Tools/Category'
+      utils.dependency 'Tools/Macro'
       # category.public_header_files = 'Pod/Classes/NetworkEngine/**/*.h'
   end
 
   s.subspec 'Router' do |router|
-      router.source_files = 'CHSTL/Classes/Router/*.*'
-      router.dependency 'CHSTL/Category'
-      router.dependency 'CHSTL/Macro'
-      router.dependency 'CHSTL/UI'
-      router.dependency 'CHSTL/Base'
+      router.source_files = 'Tools/Classes/Router/*.*'
+      router.dependency 'Tools/Category'
+      router.dependency 'Tools/Macro'
+      router.dependency 'Tools/UI'
+      router.dependency 'Tools/Base'
       # category.public_header_files = 'Pod/Classes/NetworkEngine/**/*.h'
   end
 
